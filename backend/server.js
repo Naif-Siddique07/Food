@@ -21,7 +21,7 @@ app.use(express.json())
 app.use(cors())
 
 //db connection
-connectDB("mongodb://localhost:27017/food");
+connectDB();
 
 //api endpoints
 app.use("/api/food",foodRouter)
