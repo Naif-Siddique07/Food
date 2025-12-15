@@ -16,4 +16,5 @@ export const assets ={
     header_img
 }
 
-export const url = 'http://localhost:4000'
+// export const url = 'http://localhost:4000'
+export const url = 'https://food-backend-cc8o.onrender.com'
